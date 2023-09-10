@@ -1,1 +1,20 @@
-hello am there
+pipeline {
+    agent any
+	Stages {
+	    Stage("Build"){
+		    Steps{
+			   echo "hey this is the first stage of my pipeline"
+			}
+		}
+		Stage("Test"){
+		    Steps{
+			   echo "hey this is the first stage of my pipeline"
+			}
+		}
+		Stage("Deploy"){
+		    Steps{
+			   echo "hey this is the first stage of my pipeline"
+			}
+		}
+	}
+}
