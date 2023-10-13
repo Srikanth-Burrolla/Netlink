@@ -5,4 +5,14 @@ echo "welcome to devops $I time..."
 sleep 2
 I=$(($I + 1))
 #git status
-sleep 20
+---
+if condition example
+
+echo "if condition example"
+x=10
+if [ $x < 5 ]
+then
+  echo "x value is $x"
+fi
+---
+sleep 10
